@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Efecto hover en imágenes */
+.img-fluid {
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #007bff;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+/* Carrusel de presentación */
+.carousel-item {
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    max-width: 150px; /* Ajusta el tamaño según prefieras */
+    height: auto;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.video-container {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
